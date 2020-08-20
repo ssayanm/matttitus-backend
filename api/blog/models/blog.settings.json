@@ -36,13 +36,10 @@
     "category": {
       "type": "enumeration",
       "enum": [
-        "gatsby",
-        "javascript",
-        "react",
-        "html",
-        "css"
+        "blogposts",
+        "events"
       ],
-      "default": "gatsby",
+      "default": "blogposts",
       "required": true
     },
     "desc": {
