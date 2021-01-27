@@ -53,7 +53,7 @@
     "author": {
       "type": "string",
       "required": false,
-      "default": "Kathryn Bumgarner"
+      "default": "Matt Titus"
     }
   }
 }
