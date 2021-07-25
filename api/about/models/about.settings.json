@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "quote": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
